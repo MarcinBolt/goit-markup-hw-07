@@ -1,0 +1,30 @@
+.logo {
+  font-family: var(--font-raleway);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  vertical-align: middle;
+  color: var(--brand-color-black);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.logo__static-part {
+  color: var(--brand-color-accent);
+}
+.header__logo {
+  flex-grow: 0.21;
+}
+.logo--footer {
+  color: var(--light-font-color);
+}
+
+.logo:hover,
+.logo:focus {
+  color: var(--hovered-activated-accent-color);
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
