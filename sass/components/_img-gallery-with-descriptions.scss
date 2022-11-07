@@ -1,0 +1,30 @@
+.img-gallery-with-descriptions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.img-gallery-with-descriptions__container {
+  position: relative;
+  overflow: hidden;
+}
+.img-gallery-with-descriptions__img {
+  display: block;
+}
+.img-gallery-with-descriptions__title {
+  color: var(--light-font-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  position: absolute;
+  bottom: 0px;
+  padding-block: 27px;
+  width: 100%;
+  margin: 0px;
+  background: rgba(47, 48, 58, 0.8);
+}

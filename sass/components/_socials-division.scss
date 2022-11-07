@@ -41,14 +41,14 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.socials-division--team-member-card-positioning {
-  padding: 0px;
-  margin: 0px 32px 30px 32px;
-  border: 0px;
-}
 .socials-division__link--footer-background-changing {
   background: var(--footer-icons-background-color);
 }
 .socials-division__icon--change-footer-fill {
   fill: var(--brand-color-white);
+}
+.socials-division--team-member-card-positioning {
+  padding: 0px;
+  margin: 0px 32px 30px 32px;
+  border: 0px;
 }

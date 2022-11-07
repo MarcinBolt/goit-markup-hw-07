@@ -24,7 +24,9 @@
 .button__icon--end {
   margin-left: 24px;
 }
-
+.button--order-button-widening {
+  padding-inline: 76px;
+}
 .button--in-filter {
   background: var(--accents-background-color-gray);
   color: var(--primary-font-color);
