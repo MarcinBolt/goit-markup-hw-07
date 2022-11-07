@@ -96,17 +96,11 @@ a[href] {
   flex-wrap: wrap;
 }
 .nav__list {
-  /* margin-left: 93px; */
-  padding-left: 0px;
-}
-.nav__list:last-child {
-  /* margin-right: 345px; */
-}
-.nav__list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 46px;
+  padding-left: 0px;
   padding-block: 0px;
   margin-block: 0px;
 }

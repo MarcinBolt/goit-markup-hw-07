@@ -1,21 +1,18 @@
 .nav {
   display: flex;
-  flex-wrap: wrap;
   flex-grow: 0.8;
+  flex-wrap: wrap;
 }
 .nav__list {
   display: flex;
   flex-wrap: wrap;
   list-style: none;
   gap: 46px;
+  padding-left: 0px;
   padding-block: 0px;
   margin-block: 0px;
 }
-.nav__list:first-child {
-  padding-left: 0px;
-}
 .nav__link {
-  padding-left: 0px;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -25,7 +22,6 @@
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-
 .nav__link:hover,
 .nav__link:focus {
   color: var(--hovered-activated-accent-color);
