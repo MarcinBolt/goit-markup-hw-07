@@ -36,7 +36,7 @@
 }
 
 .header {
-  border-bottom: 1px solid header-border-bottom-color;
+  border-bottom: 1px solid #ececec;
   padding-block: 24px;
 }
 
