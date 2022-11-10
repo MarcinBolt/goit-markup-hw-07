@@ -1,27 +1,31 @@
 .companies-logos-list {
-  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
   padding-left: 0px;
   margin: 0px;
-}
-.companies-logos-list__link {
-  display: flex;
-  margin: 0px;
-  padding: 17.71px 32px 14.25px 32px;
-  border: 1px solid var(--customers-section-accent-color);
-  fill: var(--customers-section-accent-color);
-  transition-property: color, background, border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-}
 
-.companies-logos-list__link:hover,
-.companies-logos-list__link:focus {
-  border-color: var(--hovered-activated-accent-color);
-  fill: var(--hovered-activated-accent-color);
-  transition-property: border, fill;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  &__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    width: 168px;
+    height: 90px;
+    border: 1px solid $customers-section-accent-color;
+    fill: $customers-section-accent-color;
+    transition-property: color, background, border, fill;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+      border-color: $hovered-activated-accent-color;
+      fill: $hovered-activated-accent-color;
+      transition-property: border, fill;
+      transition-duration: 250ms;
+      transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  }
 }
