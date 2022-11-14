@@ -6,6 +6,8 @@
   font-family: "Roboto", "Raleway", sans-serif;
   background: #fff;
   color: #212121;
+  max-width: 1600px;
+  margin: 0 auto;
 }
 
 .hidden {
